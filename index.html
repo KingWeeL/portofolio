@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imanuel Marpaung : Profil pengembang web</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e87842f7f9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/icon.png" alt="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#portofolio">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-End Web Developer</p>
+          <h1>
+            Hi, I'm <span>Imanuel</span><br />Parasian Marpaung From Indonesia
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about.png" width="624px" height="600" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Saya adalah Imanuel Parasian Marpaung, seorang siswa yang menekuni
+              bidang Rekayasa Perangkat Lunak dengan fokus pada pengembangan
+              front-end web. Saya memiliki tekad yang kuat untuk terus belajar
+              dan mengasah keterampilan saya demi mencapai kesempurnaan. Selalu
+              berusaha untuk menemukan solusi terbaik dalam setiap proyek yang
+              saya kerjakan dan memiliki minat besar di bidang front-end web.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skils
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Front-end Web</span><br />Make interface a Website
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023</span><br />Make a Class Website</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022-2024</span><br />Vocational school Software
+                  Enginering
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- serivice -->
+    <div id="service">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Front-End Developer</h2>
+            <p>
+              Mendesain antarmuka website. Tujuannya, agar website memiliki
+              tampilan yang baik dan fitur-fitur yang mudah digunakan
+              pengunjung.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Design</h2>
+            <p>
+              Desain web atau web design adalah; apa yang menciptakan tampilan
+              dan ‘rasa’ secara keseluruhan sebuah website, saat digunakan oleh
+              pengguna. Ini mencakup proses perencanaan dan pembuatan
+              elemen-elemen website, dari struktur tata letak, gambar, warna,
+              font, hingga grafik.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-window-maximize"></i>
+            <h2>Landing Page</h2>
+            <p>
+              Landing page adalah sebuah halaman website yang digunakan untuk
+              tujuan tertentu ditandai dengan satu atau dua tombol
+              Call-to-action (CTA). Berbeda dengan homepage yang merupakan
+              halaman perkenalan terhadap brand, memberitahu apa saja yang
+              ditawarkan oleh website tersebut, dan tentunya memiliki banyak
+              CTA. Landing page hanya menawarkan sebuah campaign baik itu berupa
+              promo produk, product launching, dan lain sebagainya.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portofolio -->
+    <div id="portofolio">
+      <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/project-1.jpeg" width="650px" height="800px" />
+            <div class="layer">
+              <h3>Class Website</h3>
+              <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+              <a href="https://rpl-smkn1.vercel.app"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/project-2.jpeg" width="650px" height="800px" />
+            <div class="layer">
+              <h3>Landing Page Banana Chocolate</h3>
+              <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+              <a href="https://dev-projekwebv2.pantheonsite.io/home/"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>imanuelmarpaung61@gmail.com
+            </p>
+            <p><i class="fa-brands fa-whatsapp"></i>0895327034808</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/sonakmalela.junior/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/imanuelkeepcalm/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/imanuel-parasian-marpaung-955826297/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a
+              href="images/sertifikat pemograman web.pdf"
+              download
+              class="btn btn2"
+              >Download Certificate</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy Imanuel Parasian Marpaung</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontents of tablinks) {
+          tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxJieBu7GTnqsRKwtl1_Hq1O5wAntPkKtFMaZEpkMFT2sB4sfEkdyN8KcuKIB0e9uWVPw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent succsesfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
