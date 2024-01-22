@@ -80,6 +80,11 @@ nav ul li a:hover::after {
   padding: 80px 0;
   color: #ababab;
 }
+
+#about p {
+  font-size: 33px;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
