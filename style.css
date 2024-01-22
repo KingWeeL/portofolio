@@ -83,6 +83,7 @@ nav ul li a:hover::after {
 
 #about p {
   font-size: 28px;
+  font-family: Roboto Slab;
 }
 
 .row {
