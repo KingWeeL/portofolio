@@ -83,6 +83,7 @@ nav ul li a:hover::after {
 
 #about p {
   font-family: Roboto Slab;
+  font-size: 25px;
 }
 
 .row {
@@ -391,6 +392,10 @@ nav .fas {
   .copyright {
     font-size: 14px;
   }
+}
+
+#about p {
+  font-size: 8px;
 }
 #msg {
   color: #61b752;
